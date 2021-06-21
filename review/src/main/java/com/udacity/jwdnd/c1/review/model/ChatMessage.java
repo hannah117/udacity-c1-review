@@ -1,10 +1,12 @@
 package com.udacity.jwdnd.c1.review.model;
 
+import org.springframework.context.annotation.Bean;
+
 public class ChatMessage {
 
     String messageText;
     String username;
-
+@Bean
     public String getMessageText() {
         return messageText;
     }

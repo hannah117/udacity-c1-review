@@ -9,6 +9,7 @@ public class ChatForm {
     String messageText;
     String username;
 
+
     public String getMessageType() {
         return messageType;
     }
