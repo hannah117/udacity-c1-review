@@ -4,6 +4,8 @@ public class ChatMessage {
 
     String messageText;
     String username;
+    Integer messageId;
+
 
     public String getMessageText() {
         return messageText;
@@ -20,4 +22,9 @@ public class ChatMessage {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    public Integer getMessageId() { return messageId; }
+
+    public void setMessageId(Integer messageId) { this.messageId = messageId; }
+
 }
